@@ -9,6 +9,8 @@ The Ideal OE is the most advanced and, hence, the most accurate operating envelo
 - Monitoring: At the secondary of the transformer (aggregated P, aggregated Q, and voltages, all per phase), at all customers (net demand P and Q).
 - Electrical models needed: Full electrical network model.
 
+It is important to notice that this interactive notebook is using a simple LV network model (without the HV part) for calculation of OEs and corresponding assessments, while the final report of the project is using the integrated HV-LV network model. To make the OEs calculated here closer to the ones in the report, the voltage variation along the day caused by the HV part is modelled here as a voltage source (following the measurements taken from the full HV-LV model). In addition, to represent the voltage rise/drop at the primary side of the distribution transformer, a fictitious line is created between the voltage source and the distribution transformer. Despite this effort, the OE values calculated in the final report will still not be the same as the ones calculated here. Nevertheless, the general qualitative nature of the OE is the same.
+
 ## Pre-Requisites
 - Python (Anaconda) and Jupyter Notebook (comes with Anaconda). For download links and more info: https://www.anaconda.com/products/individual
 - dss_python module. We use this Python-native module to run power flows based on OpenDSS (https://sourceforge.net/projects/electricdss/). To install, run "python -m pip install dss_python" in the Anaconda Prompt. For more info: https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python#part-0-using-dss_python
