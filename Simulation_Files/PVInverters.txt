@@ -1,0 +1,3 @@
+New XYCurve.vw_curve npts=4 Yarray=(1.0, 1.0, 0.2, 0.2) XArray=(0.5, 1.1, 1.13, 2.0)
+New XYCurve.vv_curve npts=6 Yarray=(0.44, 0.44, 0.0, 0.0, -0.60, -0.60) XArray=(0.5, 0.9, 0.96, 1.04, 1.12, 1.5)
+New InvControl.InvPVCtrl combimode=VV_VW voltwatt_curve=vw_curve vvc_curve1=vv_curve DeltaP_factor=0.1 voltagechangetolerance=0.001 refreactivepower=VARAVAL VoltwattYAxis=KVARATINGPU

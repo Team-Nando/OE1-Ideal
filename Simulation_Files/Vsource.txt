@@ -1,0 +1,2 @@
+New vsource.source2 bus1=sourcebus.2 basekv=12.701706 pu=0.9951146043742479 angle=-1.20330085e+02 phases=1
+New vsource.source3 bus1=sourcebus.3 basekv=12.701706 pu=0.9955120386819646 angle=1.19667156e+02 phases=1

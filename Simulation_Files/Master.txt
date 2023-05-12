@@ -1,0 +1,26 @@
+Clear
+
+Set DefaultBaseFrequency=50
+
+New Circuit.LV28 bus1=sourcebus.1 basekv=12.701706 pu=0.9952718700196848 angle=-3.51278467e-01 phases=1
+
+!-----Elements--------
+Redirect LoadShapes.txt
+Redirect Vsource.txt
+Redirect LineCodes.txt
+Redirect Transformer.txt
+Redirect Lines.txt
+Redirect Customers.txt
+Redirect PVSystems.txt
+Redirect PVInverters.txt
+
+!Fictitious line created to simulate a voltage drop/rise that would happen on the original HV-LV network
+New line.line bus1=sourcebus bus2=linebus2 phases=3 length=2 units=km r1=4 x1=20 c1=400 r0=4 x0=20 c0=400 Normamps=2000 enabled=true
+
+!-----Settings--------
+Set maxiterations=1000
+Set Maxcontroliter=1000
+
+!-----Load Flow------
+calcvoltagebases
+calcv
