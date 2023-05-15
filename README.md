@@ -9,7 +9,9 @@ The Ideal OE is the most advanced and, hence, the most accurate operating envelo
 - Required Monitoring: At the secondary of the transformer (aggregated P, aggregated Q, and voltages, all per phase), at all customers (net demand P and Q).
 - Required Electrical Models: Full three-phase electrical network model.
 
-For simplicity, the case study used to demonstrate the OE algorithm corresponds to a low voltage (LV) network without modelling the upstream high voltage (HV) network. Although some adaptations have been made to ensure realistic voltage fluctuations at the distribution transformer of the LV network, the results are not exactly the same as those presented in the Final Report of the project (which used an integrated HV-LV network model). Nevertheless, the behaviour of the OE algorithm and the qualitative nature of the results remain the same.
+For simplicity, the case study used to demonstrate the OE algorithm corresponds to a low voltage (LV) network without modelling the upstream high voltage (HV) network. Although some adaptations have been made to ensure realistic voltage fluctuations at the distribution transformer of the LV network, the results are not exactly the same as those presented in the Final Report of the project (which used an integrated HV-LV network model). Nevertheless, the behaviour of the OE algorithm and the qualitative nature of the results remain the same. The following adaptions were made:
+- The voltage variation along the day caused by the HV part is modelled as a voltage source (following the values taken from the full HV-LV model).
+- To better represent the voltage rise/drop at the primary side of the distribution transformer (due to OE exports/imports), a fictitious line is created between the voltage source and the distribution transformer.
 
 ## Pre-Requisites
 - Python (Anaconda) and Jupyter Notebook (comes with Anaconda). For download links and more info: https://www.anaconda.com/products/individual
