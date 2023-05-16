@@ -14,8 +14,8 @@ Redirect Customers.txt
 Redirect PVSystems.txt
 Redirect PVInverters.txt
 
-!Fictitious line created to simulate a voltage drop/rise that would happen on the original HV-LV network
-New line.line bus1=sourcebus bus2=linebus2 phases=3 length=2 units=km r1=4 x1=20 c1=400 r0=4 x0=20 c0=400 Normamps=2000 enabled=true
+!Fictitious line created to simulate a voltage drop/rise that would happen on the original HV-LV network when using OE export/import
+New line.line bus1=sourcebus bus2=linebus2 phases=3 length=2 units=km r1=2 x1=20 c1=400 r0=2 x0=20 c0=400 Normamps=2000 enabled=true
 
 !-----Settings--------
 Set maxiterations=1000
