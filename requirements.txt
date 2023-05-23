@@ -1,0 +1,34 @@
+aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
+backports.weakref==1.0.post1
+googleapis-common-protos @ file:///C:/Windows/TEMP/abs_f3kgqo235h/croots/recipe/googleapis-common-protos-feedstock_1660256147016/work
+nose @ file:///opt/conda/conda-bld/nose_1642704612149/work
+pycosat==0.6.3
+typing_extensions @ file:///C:/Windows/TEMP/abs_dd2d0moa85/croots/recipe/typing_extensions_1659638831135/work
+beautifulsoup4 @ file:///C:/ci/beautifulsoup4_1650293025093/work
+build @ file:///home/conda/feedstock_root/build_artifacts/python-build_1682868691601/work
+CacheControl @ file:///home/conda/feedstock_root/build_artifacts/cachecontrol-split_1675196722997/work
+certifi==2023.5.7
+cleo @ file:///home/conda/feedstock_root/build_artifacts/cleo_1669193745932/work
+conda-verify==3.4.2
+crashtest @ file:///home/conda/feedstock_root/build_artifacts/crashtest_1667467006729/work
+diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
+distlib @ file:///home/conda/feedstock_root/build_artifacts/distlib_1668356257807/work
+filelock @ file:///home/conda/feedstock_root/build_artifacts/filelock_1681839547898/work
+html5lib @ file:///home/conda/feedstock_root/build_artifacts/html5lib_1592930327044/work
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1682176699712/work
+importlib-resources @ file:///home/conda/feedstock_root/build_artifacts/importlib_resources_1676919000169/work
+installer @ file:///home/conda/feedstock_root/build_artifacts/python-installer_1679300325491/work
+jaraco.classes @ file:///home/conda/feedstock_root/build_artifacts/jaraco.classes_1667024629799/work
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema-meta_1669810440410/work
+more-itertools @ file:///home/conda/feedstock_root/build_artifacts/more-itertools_1677514956219/work
+pkginfo @ file:///home/conda/feedstock_root/build_artifacts/pkginfo_1673281726124/work
+pkgutil_resolve_name @ file:///home/conda/feedstock_root/build_artifacts/pkgutil-resolve-name_1633981968097/work
+poetry-plugin-export @ file:///home/conda/feedstock_root/build_artifacts/poetry-plugin-export_1681748973730/work
+pyproject_hooks @ file:///home/conda/feedstock_root/build_artifacts/pyproject_hooks_1670268672584/work
+python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
+requests-toolbelt @ file:///home/conda/feedstock_root/build_artifacts/requests-toolbelt_1667050328587/work
+shellingham @ file:///home/conda/feedstock_root/build_artifacts/shellingham_1676292972954/work
+sniffio @ file:///C:/ci/sniffio_1614030527509/work
+tifffile @ file:///tmp/build/80754af9/tifffile_1627275862826/work
+tomlkit @ file:///home/conda/feedstock_root/build_artifacts/tomlkit_1683028165096/work
+trove-classifiers @ file:///home/conda/feedstock_root/build_artifacts/trove-classifiers_1684801643508/work
