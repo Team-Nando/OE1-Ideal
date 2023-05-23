@@ -14,7 +14,7 @@ For simplicity, the case study used to demonstrate the OE algorithm corresponds 
 ## Pre-Requisites
 - Python (Anaconda) and Jupyter Notebook (comes with Anaconda). Note that this repository is meant to be used by individuals, which can get free access to Anaconda. For download links and more info: https://www.anaconda.com/products/individual
 - dss_python module. We use this Python-native module to run power flows based on OpenDSS (https://sourceforge.net/projects/electricdss/). To install, run "python -m pip install dss_python" in the Anaconda Prompt. For more info: https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python#part-0-using-dss_python
-- To guarantee that you have all the pre-requisites you can also run the **`requirements.txt`** file using **`pip install -r requirements.txt`**. This should install all requirements for you.
+- To guarantee that you have all the pre-requisites you can also run the **`requirements.txt`** file using **`pip install -r requirements.txt`** on the Anaconda prompt. This should install all requirements for you.
 
 ## Run the Code
 Make sure you have installed all the pre-requisites (Anaconda and the dss_python module). Otherwise, you will not be able to go through the repository.
