@@ -40,6 +40,7 @@ Nando Ochoa (luis.ochoa@unimelb.edu.au ; https://sites.google.com/view/luisfocho
 We acknowledge AusNet Services for providing the data listed below, which was essential to create this repository.
 - Anonymised historical active power demand of some customers (smart meter data)
 - The data (i.e., topology, impedances, distribution transformers) of one of their HV feeders (indirectly used by this repository)
+ 
 We also acknowledge the Australian Bureau of Meteorology for providing the solar radiation data.
 
 ## Licenses
