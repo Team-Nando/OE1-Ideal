@@ -36,7 +36,7 @@ Arthur Gonçalves Givisiez (a.goncalvesgivisiez@unimelb.edu.au)
 
 Nando Ochoa (luis.ochoa@unimelb.edu.au ; https://sites.google.com/view/luisfochoa)
 
-## Run the Code
+## Acknowledgements
 We acknowledge AusNet Services for providing the data listed below, which was essential to create this repository.
 - Active power of some customers
 
