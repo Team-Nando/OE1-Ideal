@@ -17,7 +17,7 @@ For simplicity, the case study used to demonstrate the OE algorithm corresponds 
 - To guarantee that you have all the necessary packages you can also run the **`requirements.txt`** file using **`pip install -r requirements.txt`** in the Anaconda prompt.
 
 ## Run the Code
-Make sure you have installed all the pre-requisites (Anaconda, the dss_python module, requirements). Otherwise, you will not be able to go through the repository.
+Make sure you have installed all the pre-requisites (Anaconda, dss_python, requirements). Otherwise, you will not be able to go through the repository.
 
 1. Download all the files using the green **`<> Code`** button at the top right.
    - You will get a ZIP file with a folder that contains all the files.
